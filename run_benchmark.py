@@ -51,13 +51,10 @@ if __name__ == "__main__":
         'video_games',
         'heart',
         'bank',
-        'dont_get_kicked',
-        'Churn_Modelling',
         'bng_zoo',
         'jsbach_chorals_modified',
         'SDSS',
         'bng_ionosphere',
-        'network_intrusion_detection',
         'artificial_characters',
         'default_of_credit_card_clients'
     ]
