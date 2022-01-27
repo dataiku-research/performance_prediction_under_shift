@@ -29,7 +29,7 @@ Use the notebook [Performance Prediction Under Dataset Shift.ipynb](https://gith
 ### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
 
 | Dataset                            |   ATC  |ExpertRF (amazon) |ExpertRF (naver) |ErrorPredictorRF |
-| -----------------------------------|---------------- | -------------- | -------------- |
+| -----------------------------------|--------|------------------|-----------------|-----------------|
 |adult_data                          |  0.031 |      0.013       |  0.012 |  0.001 |
 |artificial_characters_data          |  0.056 |  0.046 |  0.051 |  0.010 |
 |bank_data                           |  0.036 |  0.001 |  0.001 |  0.000 |
