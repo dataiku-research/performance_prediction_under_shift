@@ -20,8 +20,8 @@ def run_benchmark(dataset_name):
     # load experiment setting
     exp_params = ExperimentParams()
 
-    dataset_df = pd.read_csv(dataset_name)
-    dataset_params = DatasetParams(dataset_name + '.csv', dataset_df)
+    dataset_df = pd.read_csv(dataset_name + '.csv')
+    dataset_params = DatasetParams(dataset_name, dataset_df)
 
     # base model RF
     model = exp_params.list_of_models[1]
