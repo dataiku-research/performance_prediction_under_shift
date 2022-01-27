@@ -26,7 +26,7 @@ This script will 1. generate training and test shifted datasets, 2. train severa
 
 Use the notebook [Performance Prediction Under Dataset Shift.ipynb](https://github.com/dataiku-research/performance_prediction_under_shift/blob/main/Performance%20Prediction%20Under%20Dataset%20Shift.ipynb) to load the results and generate the tables in the paper. 
 
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
+### MAE of Accuracy Prediction on Unseen Perturbations
 
 | Dataset                            |   ATC  |ExpertRF (amazon) |ExpertRF (naver) |ErrorPredictorRF |
 | -----------------------------------|--------|------------------|-----------------|-----------------|
