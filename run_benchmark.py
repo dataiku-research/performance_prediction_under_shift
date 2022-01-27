@@ -9,7 +9,7 @@ import os
 def run_benchmark(dataset_name):
     # create output folders
 
-    data_fld = dataset_name + ''
+    data_fld = dataset_name
     pp_fld = dataset_name + '_pp'
     viz_fld = dataset_name + '_viz'
 
