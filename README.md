@@ -1,5 +1,7 @@
 # Performance Prediction Under Dataset Shift
 
+![Performance Prediction with Confidence Interval](images/perf_pred_conf_interval.png)
+
 This repository is the official implementation of [Performance Prediction Under Dataset Shift](https://arxiv.org/abs/todo). 
 
 ## Requirements
