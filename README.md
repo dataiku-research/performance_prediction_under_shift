@@ -26,7 +26,9 @@ This script will 1. generate training and test shifted datasets, 2. train severa
 
 ## Results
 
-Use the notebook [Performance Prediction Under Dataset Shift.ipynb](https://github.com/dataiku-research/performance_prediction_under_shift/blob/main/Performance%20Prediction%20Under%20Dataset%20Shift.ipynb) to load the results and generate the tables in the paper. 
+Use the notebook [Performance Prediction Under Dataset Shift.ipynb](https://github.com/dataiku-research/performance_prediction_under_shift/blob/main/Performance%20Prediction%20Under%20Dataset%20Shift.ipynb) to load the results and generate the tables in the paper.
+
+Use the notebook [Performance Prediction With Confidence Interval.ipynb](https://github.com/dataiku-research/performance_prediction_under_shift/blob/main/Performance%20Prediction%20With%20Confidence%20Interval.ipynb) to generate confidence intervals for performance predictions with the method proposed in the paper.
 
 ### MAE of Accuracy Prediction on Unseen Perturbations
 
