@@ -13,9 +13,10 @@ def run_benchmark(dataset_name):
     pp_fld = dataset_name + '_pp'
     viz_fld = dataset_name + '_viz'
 
-    os.makedirs(data_fld)
-    os.makedirs(pp_fld)
-    os.makedirs(viz_fld)
+    if not os.path.exists(data_fld):
+        os.makedirs(data_fld)
+        os.makedirs(pp_fld)
+        os.makedirs(viz_fld)
 
     # load experiment setting
     exp_params = ExperimentParams()
