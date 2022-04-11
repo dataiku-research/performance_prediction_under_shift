@@ -490,6 +490,7 @@ def pp_comparison(n_runs, pp_list, fld, out_fld, keep_ratio_train_shifts=1., upd
 
         plt.tight_layout()
         plt.savefig(os.path.join(out_fld, 'r2_score_%d.png' % seed), bbox_inches='tight')
+        plt.close()
 
         for set_name in mae:
             plt.figure(figsize=(8, 5));
@@ -502,10 +503,7 @@ def pp_comparison(n_runs, pp_list, fld, out_fld, keep_ratio_train_shifts=1., upd
 
             plt.tight_layout()
             plt.savefig(os.path.join(out_fld, './abs_error_%s_%d.png' % (set_name, seed)), bbox_inches='tight')
-
-        plt.close()
-        plt.cla()
-        plt.clf()
+            plt.close()
 
     for set_name in all_runs_mae:
         all_runs_mae[set_name] = np.array(all_runs_mae[set_name])
@@ -549,6 +547,7 @@ def pp_comparison(n_runs, pp_list, fld, out_fld, keep_ratio_train_shifts=1., upd
 
         plt.tight_layout()
         plt.savefig(os.path.join(out_fld, 'abs_error_%s.png' % set_name), bbox_inches='tight')
+        plt.close()
 
     metrics = [('r2_score', all_runs_r2),
                ('likelihood', all_runs_likelihood),
@@ -577,3 +576,4 @@ def pp_comparison(n_runs, pp_list, fld, out_fld, keep_ratio_train_shifts=1., upd
 
         plt.tight_layout()
         plt.savefig(os.path.join(out_fld, '%s.png' % name), bbox_inches='tight')
+        plt.close()

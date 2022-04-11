@@ -88,10 +88,7 @@ def pp_data_generation(dataset_params, exp_params, model, n_runs, out_dir):
         plt.hlines(y=-ci_drop, xmin=0, xmax=5, linestyles='dotted', color='darkred', alpha=0.6)
 
         plt.savefig(os.path.join(out_dir, './true_drops_%d.png' % seed))
-
         plt.close()
-        plt.cla()
-        plt.clf()
 
         train_shifts_names = train.shift_types
         test_shifts_names = test.shift_types
@@ -166,7 +163,4 @@ def pp_data_generation(dataset_params, exp_params, model, n_runs, out_dir):
 
         plt.tight_layout()
         plt.savefig(os.path.join(out_dir, './true_drops_by_type_%d.png' % seed), bbox_inches='tight')
-
         plt.close()
-        plt.cla()
-        plt.clf()

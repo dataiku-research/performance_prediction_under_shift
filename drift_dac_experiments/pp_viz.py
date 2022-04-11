@@ -42,6 +42,7 @@ def plot_metrics(out_fld, selected_ids, pp_colors, labels, metrics, all_runs_mae
     plt.legend();  # bbox_to_anchor=(1.4, 1.05));
     plt.tight_layout()
     plt.savefig(os.path.join(out_fld, 'abs_error' + suffix + '.png'), bbox_inches='tight')
+    plt.close()
 
     for name, all_runs_metric in metrics:
         plt.figure(figsize=(12, 8));
@@ -65,6 +66,7 @@ def plot_metrics(out_fld, selected_ids, pp_colors, labels, metrics, all_runs_mae
 
         plt.tight_layout()
         plt.savefig(os.path.join(out_fld, '%s%s.png' % (name, suffix)), bbox_inches='tight')
+        plt.close()
 
     # desaggregated results
     if disaggregate:
@@ -99,6 +101,7 @@ def plot_metrics(out_fld, selected_ids, pp_colors, labels, metrics, all_runs_mae
             plt.legend();  # bbox_to_anchor=(1.2, 1.05));
             plt.tight_layout()
             plt.savefig(os.path.join(out_fld, 'abs_error' + suffix + '_%d.png' % run), bbox_inches='tight')
+            plt.close()
 
 
 def pp_viz(fld, out_fld, subpop=True, ylim_top=0.1, figsize=(8, 5), seed=42):
