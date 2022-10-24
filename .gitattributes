@@ -9,3 +9,5 @@ default_of_credit_card_clients.csv filter=lfs diff=lfs merge=lfs -text
 heart.csv filter=lfs diff=lfs merge=lfs -text
 jsbach_chorals.csv filter=lfs diff=lfs merge=lfs -text
 jsbach_chorals_modified.csv filter=lfs diff=lfs merge=lfs -text
+data/data.pkl filter=lfs diff=lfs merge=lfs -text
+dnn_experiments/data/data.pkl filter=lfs diff=lfs merge=lfs -text
